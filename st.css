@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(230, 165, 46, 0.671), gray); 
+   }
+
+.block_1{
+    background-image: url("IMG_20180626_205035.jpg");
+    min-block-size: 800px;    
+    background-size: 100% 800px;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+
+.del{
+    display: none;
+}
+
+input + button {
+    display: none;
+  }
+  input:checked + button {
+    display: inline;
+  }
+  input:checked + button + button {
+    display: none;
+  }
+
+  .block_2{
+      text-align: center;
+      padding-top: 350px;
+  }
+
+  .wind{
+      height: 200px;
+      width: 200px;
+      background-color: darkcyan;
+      border-radius: 7px;
+      border: 1px solid black;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      }
+      
+      .closed{
+    display: none;
+      }
+
+
+      .btn{          
+        margin: 0 auto;
+        display: block;
+
+      }
